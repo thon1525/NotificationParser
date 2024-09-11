@@ -282,14 +282,9 @@ For detailed instructions on setting up and using each service, please refer to 
 
 ## Contact
 
-[@Vath-Song99](https://github.com/Vath-Song99)
-[@nareth347](https://github.com/nareth347)
-[@seaporhai](https://github.com/seaporhai)
 [@thon1525](https://github.com/thon1525)
 
-Learnwithkru - (https://www.facebook.com/profile.php?id=100092631759554) - learnwithkru287@gmail.com
-
-Project Link: [Learnwithkru-monorepo](https://github.com/Vath-Song99/learnwithkru-monorepo.git)
+Project Link: [Notification Parser](https://github.com/thon1525/console-application-asp.net.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
