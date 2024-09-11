@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  notification-parser:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"  # Map localhost:8080 to container's port 80
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    restart: unless-stopped  # Automatically restart unless manually stopped

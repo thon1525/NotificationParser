@@ -1,0 +1,48 @@
+# Root .editorconfig file
+root = true
+
+# Apply rules for C# files
+[*.cs]
+
+# Indentation settings
+indent_style = space
+indent_size = 4
+
+# Use spaces for `using` directive and inside blocks
+csharp_space_around_declaration_statements = false
+
+# New line settings
+insert_final_newline = true
+
+# Place opening braces on new lines for types, methods, and other blocks
+csharp_new_line_before_open_brace = all
+
+# Use `var` when the type is evident from the right side of the assignment
+csharp_style_var_for_built_in_types = true:suggestion
+csharp_style_var_when_type_is_apparent = true:suggestion
+csharp_style_var_elsewhere = false:suggestion
+
+# Spacing preferences
+csharp_space_after_keywords_in_control_flow_statements = true
+csharp_space_between_method_call_parameter_list_parentheses = false
+csharp_space_between_method_declaration_parameter_list_parentheses = false
+
+# Using directive placement
+csharp_using_directive_placement = outside_namespace
+
+# Prefer expression-bodied members when possible
+csharp_style_expression_bodied_methods = true:refactoring
+csharp_style_expression_bodied_properties = true:refactoring
+
+# Prefer explicit type for variable declarations
+csharp_prefer_explicit_tuple_names = true
+
+# File scoped namespaces
+csharp_style_namespace_declarations = file_scoped:suggestion
+
+# Comment formatting
+csharp_preserve_single_line_statements = true
+csharp_preserve_single_line_blocks = true
+
+# Ordering of using statements
+dotnet_sort_system_directives_first = true

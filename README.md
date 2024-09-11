@@ -99,27 +99,21 @@ This section lists major frameworks and libraries used in the Learnwithkru proje
 
 ### Project Structure
 
-The Learnwithkru project follows a monorepo structure. Here’s a brief overview:
+The Notification Parser project follows a monorepo structure. Here’s a brief overview:
 
 ```sh
-learnwithkru-monorepo/
-├── application/
-│   └── frontend/
-├── packages/
-│   ├── api-gateway/
-│   ├── auth/
-│   ├── notification/
-│   ├── student/
-│   ├── teacher/
-│   ├── user/
-│   └── volomes/
-├── libs/
-│   ├──  shared-libs/
-│   └──  config-libs/
-├── docs/
-├── node_modules
-├── package.json
-├── docker-compose.yaml
+/project-root
+├── database
+│   ├── models
+│   │    ├──Notification.cs
+│   └── repositories
+├── services
+│   ├── NotificationService.cs
+├── .editorconfig
+├── .gitignore
+├── Notification-Parser.csproj
+├── Notification-Parser.sln
+├── Program.cs
 └── README.md
 ```
 
@@ -139,8 +133,6 @@ Follow these steps to set up this project locally using Docker.
 Ensure you have the following software installed before proceeding:
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- [Node.js](https://nodejs.org/en)
-- [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
 
 #### Setup Steps
 
@@ -149,7 +141,7 @@ Ensure you have the following software installed before proceeding:
 Open your terminal and run the following command to clone the project repository:
 
 ```sh
-    git clone https://github.com/Vath-Song99/learnwithkru-monorepo.git
+    git clone https://github.com/thon1525/console-application-asp.net.git
 ```
 
 2. Navigate to the `Learnwithkru-monorepo` folder:
