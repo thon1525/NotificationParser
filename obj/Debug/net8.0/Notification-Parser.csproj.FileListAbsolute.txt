@@ -1,0 +1,14 @@
+C:\Users\Dell\Documents\AspNet\Notification-Parser\bin\Debug\net8.0\Notification-Parser.exe
+C:\Users\Dell\Documents\AspNet\Notification-Parser\bin\Debug\net8.0\Notification-Parser.deps.json
+C:\Users\Dell\Documents\AspNet\Notification-Parser\bin\Debug\net8.0\Notification-Parser.runtimeconfig.json
+C:\Users\Dell\Documents\AspNet\Notification-Parser\bin\Debug\net8.0\Notification-Parser.dll
+C:\Users\Dell\Documents\AspNet\Notification-Parser\bin\Debug\net8.0\Notification-Parser.pdb
+C:\Users\Dell\Documents\AspNet\Notification-Parser\obj\Debug\net8.0\Notification-Parser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Documents\AspNet\Notification-Parser\obj\Debug\net8.0\Notification-Parser.AssemblyInfoInputs.cache
+C:\Users\Dell\Documents\AspNet\Notification-Parser\obj\Debug\net8.0\Notification-Parser.AssemblyInfo.cs
+C:\Users\Dell\Documents\AspNet\Notification-Parser\obj\Debug\net8.0\Notification-Parser.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\AspNet\Notification-Parser\obj\Debug\net8.0\Notification-Parser.dll
+C:\Users\Dell\Documents\AspNet\Notification-Parser\obj\Debug\net8.0\refint\Notification-Parser.dll
+C:\Users\Dell\Documents\AspNet\Notification-Parser\obj\Debug\net8.0\Notification-Parser.pdb
+C:\Users\Dell\Documents\AspNet\Notification-Parser\obj\Debug\net8.0\Notification-Parser.genruntimeconfig.cache
+C:\Users\Dell\Documents\AspNet\Notification-Parser\obj\Debug\net8.0\ref\Notification-Parser.dll
