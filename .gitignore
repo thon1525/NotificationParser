@@ -1,39 +1,15 @@
-# Ignore Visual Studio temporary files, build results, and
-# user-specific files
+# Ignore Visual Studio files and folders
+.vs/
 
-# User-specific files
-.vs
-*.user
-*.suo
-
-# Auto-generated files
+# Ignore build output folders
 bin/
 obj/
 
-# Rider IDE files
-.idea/
-
-# NuGet packages
-*.nupkg
-packages/
-
-# Build directories
-artifacts/
-
-# Ignore lock files
-project.lock.json
-project.fragment.lock.json
-
-# Ignore log files
+# Other common ignores for C# projects
+*.user
+*.suo
 *.log
-
-# Ignore compiled outputs
 *.dll
 *.exe
 *.pdb
-
-# Ignore other generated files
 *.cache
-*.zip
-*.gz
-*.tar
