@@ -162,6 +162,13 @@ Open your terminal and change the directory to the Notification Parserfolder. Re
  dotnet build
 ```
 
+3. Run the project:
+   After the build is complete, you can run the application with:
+
+```sh
+ dotnet run
+```
+
 #### Setup Steps with docker
 
 1. Build the Docker images
@@ -204,14 +211,6 @@ docker container prune
 
 ```sh
 docker-compose down -v
-```
-
-## To see The application:
-
-After run the follow command above you make request to the Application of Learnwithkru plateform:
-
-```sh
-    http:localhost:8000
 ```
 
 ## Contact
