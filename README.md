@@ -84,17 +84,12 @@ We aim to deliver a clear, reliable tool that makes it easier to process notific
 
 This section lists major frameworks and libraries used in the Learnwithkru project:
 
-- ![C#][C#]
-- ![.NET Core][.NETCore]
+- [![C#][C#]](https://learn.microsoft.com/en-us/dotnet/csharp/)
+- [![.NET Core][.NETCore]](https://dotnet.microsoft.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LINKS -->
-
-[Node.js-url]: https://nodejs.org/
-[TypeScript-url]: https://www.typescriptlang.org/
-[Express-url]: https://expressjs.com/
-[MongoDB-url]: https://www.mongodb.com/
 
 ### Project Structure
 
