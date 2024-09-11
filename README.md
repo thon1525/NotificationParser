@@ -162,7 +162,7 @@ Open your terminal and change the directory to the Notification Parserfolder. Re
  dotnet build
 ```
 
-3. Run the project:
+4. Run the project:
    After the build is complete, you can run the application with:
 
 ```sh
@@ -178,14 +178,14 @@ Open your terminal and change the directory to the Notification Parserfolder. Re
  docker-compose up --build
 ```
 
-2.  To run the Docker containers
-    Use the following command to build and start the Docker containers. This will set up the necessary environment for your project.
+2. To run the Docker containers
+   Use the following command to build and start the Docker containers. This will set up the necessary environment for your project.
 
 ```sh
 docker compose up
 ```
 
-3.  To run the stop Docker containers
+3. To run the stop Docker containers
 
 ```sh
 docker-compose stop
