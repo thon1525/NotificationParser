@@ -28,7 +28,7 @@
 
   <br />
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://learnwithkru.com/_next/image?url=%2FLogos%2FKruLogo.png&w=640&q=75" alt="Logo" width="115" height="110">
+    <img src="https://avatars.githubusercontent.com/u/137491012?s=400&u=03062efdf32ae0afdf1a77c03e491f64992b6702&v=4" alt="Logo" width="115" height="110">
   </a>
 
   <h1 align="center">Notification Parser</h1>
