@@ -1,36 +1,40 @@
-# Ignore build results
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+
+# User-specific files
+.vscode/
+.vs/
+*.user
+*.suo
+
+# Auto-generated files
 bin/
 obj/
 
-# Ignore user-specific files
-.vscode/
-.vs/
-
-# Ignore temporary files
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
-
-# Ignore Rider IDE files
+# Rider IDE files
 .idea/
 
-# Ignore compiled assemblies
-*.dll
-*.exe
-*.pdb
-*.mdb
-
-# Ignore generated class files
-*.g.cs
-*.g.i.cs
-
-# Ignore NuGet packages
-packages/
+# NuGet packages
 *.nupkg
+packages/
+
+# Build directories
+artifacts/
+
+# Ignore lock files
 project.lock.json
 project.fragment.lock.json
-artifacts/
 
 # Ignore log files
 *.log
+
+# Ignore compiled outputs
+*.dll
+*.exe
+*.pdb
+
+# Ignore other generated files
+*.cache
+*.zip
+*.gz
+*.tar
