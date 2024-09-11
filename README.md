@@ -41,7 +41,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-Features">Features</a></li>
+        <li><a href="#Feature">Feature</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -77,7 +77,7 @@ Our goal is to create a simple and efficient C# program that helps users manage 
 
 We aim to deliver a clear, reliable tool that makes it easier to process notification titles, ensuring only the most relevant information is highlighted.
 
-### Features
+### Feature
 
 - Tag Extraction: Efficiently identifies and extracts relevant tags from the notification title.
 - Channel Routing: Automatically directs notifications to the appropriate channels based on the extracted tags.
@@ -292,13 +292,13 @@ Project Link: [Notification Parser](https://github.com/thon1525/console-applicat
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/Vath-Song99/learnwithkru-monorepo/graphs/contributors
+[contributors-url]: https://github.com/thon1525/console-application-asp.net/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/Vath-Song99/learnwithkru-monorepo/forks
+[forks-url]: https://github.com/thon1525/console-application-asp.net/forks
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
 [stars-url]: https://github.com/Vath-Song99/learnwithkru-monorepo/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/Vath-Song99/learnwithkru-monorepo/issues
+[issues-url]: https://github.com/thon1525/console-application-asp.net/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
