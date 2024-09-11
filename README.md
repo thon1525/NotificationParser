@@ -84,11 +84,13 @@ We aim to deliver a clear, reliable tool that makes it easier to process notific
 
 This section lists major frameworks and libraries used in the Learnwithkru project:
 
-- [![C#][C#]](https://learn.microsoft.com/en-us/dotnet/csharp/)
+<a href="https://learn.microsoft.com/en-us/dotnet/csharp/">
+  <img src="https://user-images.githubusercontent.com/25181517/121405384-444d7300-c95d-11eb-959f-913020d3bf90.png" alt="C#" title="C#" width="50" height="50" />
+</a>
+
 - [![.NET Core][.NETCore]](https://dotnet.microsoft.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-[c#-url]: https://learn.microsoft.com/en-us/dotnet/csharp/
 <!-- LINKS -->
 
 ### Project Structure
