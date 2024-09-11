@@ -71,15 +71,18 @@ The program reads the notification title, finds these tags, and sends the messag
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Product Vision board
-
-Explore our comprehensive vision for the future of our product:
-
 ### Mission
 
 Our goal is to create a simple and efficient C# program that helps users manage their notifications by organizing them into specific categories based on tags in the notification title. By quickly identifying important tags like Backend (BE), Frontend (FE), Quality Assurance (QA), and Urgent (Urgent), this program helps users easily prioritize and handle notifications.
 
 We aim to deliver a clear, reliable tool that makes it easier to process notification titles, ensuring only the most relevant information is highlighted.
+
+### Features
+
+- Tag Extraction: Efficiently identifies and extracts relevant tags from the notification title.
+- Channel Routing: Automatically directs notifications to the appropriate channels based on the extracted tags.
+- Flexible Tag Handling: Processes notifications with tags in any sequence, ensuring accurate categorization.
+- Content Filtering: Ignores non-essential content, focusing solely on the relevant tags for accurate routing.
 
 ### Built With
 
