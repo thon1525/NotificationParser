@@ -30,9 +30,6 @@
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="https://learnwithkru.com/_next/image?url=%2FLogos%2FKruLogo.png&w=640&q=75" alt="Logo" width="115" height="110">
   </a>
-  <a href="https://dotnet.microsoft.com/">
-  <img src="https://user-images.githubusercontent.com/25181517/121405754-b4f48f80-c95d-11eb-8893-fc325bde617f.png" alt=".NET Core" title=".NET Core" width="50" height="50" />
-</a>
 
   <h1 align="center">Notification Parser</h1>
 </div>
@@ -91,9 +88,9 @@ This section lists major frameworks and libraries used in the Learnwithkru proje
 <a href="https://learn.microsoft.com/en-us/dotnet/csharp/">
   <img src="https://user-images.githubusercontent.com/25181517/121405384-444d7300-c95d-11eb-959f-913020d3bf90.png" alt="C#" title="C#" width="50" height="50" />
 </a>
-
-- [![.NET Core][.NETCore]](https://dotnet.microsoft.com/)
-
+  <a href="https://dotnet.microsoft.com/">
+  <img src="https://user-images.githubusercontent.com/25181517/121405754-b4f48f80-c95d-11eb-8893-fc325bde617f.png" alt=".NET Core" title=".NET Core" width="50" height="50" />
+</a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LINKS -->
 
