@@ -132,7 +132,10 @@ Follow these steps to set up this project locally using Docker.
 
 Ensure you have the following software installed before proceeding:
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)[optional]
+- [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
+- [Visual Studio](https://code.visualstudio.com/)
+- [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
 
 #### Setup Steps
 
@@ -159,53 +162,48 @@ Open your terminal and change the directory to the Notification Parserfolder. Re
  dotnet build
 ```
 
-4. Run the project:
-   After the build is complete, you can run the program with
+#### Setup Steps with docker
 
-```sh
- dotnet run
-```
-
-3. Build the Docker images:
+1. Build the Docker images
    Use the following command to build the Docker images. This will set up the necessary environment for your project.
 
 ```sh
-    yarn build:docker
+ docker-compose up --build
 ```
 
-4. To run the Docker containers:
-   Use the following command to build and start the Docker containers. This will set up the necessary environment for your project.
+2.  To run the Docker containers
+    Use the following command to build and start the Docker containers. This will set up the necessary environment for your project.
 
 ```sh
-    yarn start:docker
+docker compose up
 ```
 
-5. To run the Application (Front-end):
+3.  To run the stop Docker containers
 
 ```sh
-    yarn start:app
+docker-compose stop
 ```
 
 After completing these steps, your project will be successfully set up locally!
 
 ##### Others command
 
+- clear Docker Containers
+
+```sh
+docker container prune
+```
+
 - Restart Docker
 
 ```sh
-    yarn restart:docker
-```
-
-- Stop Docker
-
-```sh
-    yarn stop:docker
+   docker-compose restart
 ```
 
 - Remove Docker Containers
 
 ```sh
-    yarn remove:containers
+docker-compose down -v
 ```
 
 ## To see The application:
@@ -215,76 +213,6 @@ After run the follow command above you make request to the Application of Learnw
 ```sh
     http:localhost:8000
 ```
-
-## To test API
-
-If you prefer to test the API Docs you can do by make the request to the endpoint below:
-
-```
-http://localhost:service-port/swagger
-```
-
-#### sample endpoint for auth api:
-
-```
-http://localhost:3001/swagger
-```
-
-## Services
-
-1. **Authentication Service**: Securely authenticate users accessing the system.
-2. **Teacher Service**: Manage data and actions related to teachers.
-3. **Student Service**: Handle student-related functionalities.
-4. **User Service**: Manage user accounts and basic user-related functionalities.
-5. **Notification Service**: Handle notifications and communication within the system.
-
-Each service is designed to be modular, scalable, and easy to integrate with other components of the system.
-
-## Features
-
-### Authentication Service
-
-- Secure user authentication mechanisms.
-- Multi-factor authentication (MFA) support.
-- Session management for maintaining authentication state.
-
-### Teacher Service
-
-- Profile management for teachers.
-- Listing profile functionalities.
-- feedback tools.
-
-### Student Service
-
-- Joining management for students.
-- Progress tracking features.
-
-### User Service
-
-- Account creation and management.
-- Integration with the authentication service.
-- Role-based access control.
-
-### Notification Service
-
-- Push and email notifications.
-- Customizable notification templates.
-
-## Architecture
-
-- **Microservices Architecture**: Each service is implemented as an independent microservice.
-- **API Gateway**: Handles routing requests and cross-cutting concerns like authentication.
-- **Containerization**: Services are containerized using Docker.
-<!-- - **Orchestration**: Kubernetes is used for orchestrating containers. -->
-- **Logging and Monitoring**: Centralized logging and monitoring solutions are implemented.
-- **Security**: Security best practices are followed, including encryption and regular security audits.
-
-For detailed instructions on setting up and using each service, please refer to their respective README files.
-
-<!-- _For more examples and detailed instructions, please refer to the [Documentation](https://example.com)_ -->
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTACT -->
 
 ## Contact
 
