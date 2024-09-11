@@ -141,15 +141,29 @@ Ensure you have the following software installed before proceeding:
 Open your terminal and run the following command to clone the project repository:
 
 ```sh
-    git clone https://github.com/thon1525/console-application-asp.net.git
+    git clone https://github.com/thon1525/NotificationParser.git
 ```
 
-2. Navigate to the `Learnwithkru-monorepo` folder:
+2. Navigate to the `Notification Parser` folder:
 
-Open your terminal and change the directory to the Learnwithkru-monorepo folder. Replace path/to with the actual path to the project directory on your machine.
+Open your terminal and change the directory to the Notification Parserfolder. Replace path/to with the actual path to the project directory on your machine.
 
 ```sh
-    cd path/to/learnwithkru-monorepo
+    cd NotificationParser
+```
+
+3. Build the project:
+   Once inside the project directory, use the following command to build the project:
+
+```sh
+ dotnet build
+```
+
+4. Run the project:
+   After the build is complete, you can run the program with
+
+```sh
+ dotnet run
 ```
 
 3. Build the Docker images:
