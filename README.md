@@ -332,4 +332,4 @@ Project Link: [Learnwithkru-monorepo](https://github.com/Vath-Song99/learnwithkr
 [Figma]: https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white
 [Figma-url]: https://www.figma.com/design/ij4jlwjEniD1K69xLpaSt0/KRU-UI?m=dev&node-id=13-2&t=JM8rD22nxHWmXm5T-1
 [C#]: https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png
-[.NETCore]: https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg
+[.NETCore]: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/684px-Microsoft_.NET_logo.svg.png
