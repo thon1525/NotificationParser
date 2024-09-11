@@ -87,6 +87,9 @@ This section lists major frameworks and libraries used in the Learnwithkru proje
 <a href="https://learn.microsoft.com/en-us/dotnet/csharp/">
   <img src="https://user-images.githubusercontent.com/25181517/121405384-444d7300-c95d-11eb-959f-913020d3bf90.png" alt="C#" title="C#" width="50" height="50" />
 </a>
+<a href="https://learn.microsoft.com/en-us/dotnet/csharp/">
+  <img src="https://user-images.githubusercontent.com/25181517/121405384-444d7300-c95d-11eb-959f-913020d3bf90.png" alt="C#" title="C#" width="50" height="50" />
+</a>
 
 - [![.NET Core][.NETCore]](https://dotnet.microsoft.com/)
 
@@ -333,5 +336,3 @@ Project Link: [Learnwithkru-monorepo](https://github.com/Vath-Song99/learnwithkr
 [Next.js]: https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white
 [Figma]: https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white
 [Figma-url]: https://www.figma.com/design/ij4jlwjEniD1K69xLpaSt0/KRU-UI?m=dev&node-id=13-2&t=JM8rD22nxHWmXm5T-1
-[C#]: https://user-images.githubusercontent.com/25181517/121405384-444d7300-c95d-11eb-959f-913020d3bf90.png
-[.NETCore]: https://user-images.githubusercontent.com/25181517/121405754-b4f48f80-c95d-11eb-8893-fc325bde617f.png
