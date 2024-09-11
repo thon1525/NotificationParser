@@ -2,8 +2,7 @@
 # user-specific files
 
 # User-specific files
-.vscode/
-.vs/
+.vs
 *.user
 *.suo
 
