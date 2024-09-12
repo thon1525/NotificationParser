@@ -60,8 +60,10 @@
          <li><a href="#sample-input-and-output">Sample Input and Output</a></li>
       </ul>
     </li>
+    <li><a href="#CI/CD">CI/CD</a></li>
+     <li><a href="#docker-setup">Docker Setup</a></li>
      <li><a href="#contributing">Contributing</a></li>
-       <li><a href="#license">License</a></li>
+     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -291,6 +293,100 @@ Assigned Channels: Backend, Quality Assurance
 Title: General info [BE][QA]
 Assigned Channels: Backend, Quality Assurance
 
+```
+
+## CI/CD
+
+GitHub Actions
+The project uses GitHub Actions for Continuous Integration (CI). The workflow file is located at .github/workflows/ci.yml.
+Workflow Configuration
+
+```sh
+name: CI for C# NotificationParser
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Show folder structure
+        run: |
+          echo "Folder structure:"
+          ls -R   # Lists all files and directories recursively
+
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: "7.x" # Use the appropriate .NET version for your project
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build the solution
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Run tests
+        run: dotnet test --no-restore --verbosity normal
+
+```
+
+## Docker Setup
+
+Dockerfile
+
+```sh
+# Use the official .NET 8.0 SDK image to build the application
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
+WORKDIR /app
+
+# Copy the csproj and restore dependencies
+COPY *.csproj ./
+RUN dotnet restore
+
+# Copy everything else and build
+COPY . ./
+RUN dotnet publish -c Release -o out
+
+# Use the official .NET 8.0 ASP.NET runtime image to run the application
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
+WORKDIR /app
+COPY --from=build-env /app/out .
+
+# Expose port 80 and 443 for HTTP and HTTPS
+EXPOSE 80
+EXPOSE 443
+
+# Entry point to run the app
+ENTRYPOINT ["dotnet", "Notification-Parser.dll"]
+
+```
+
+## Docker Compose
+
+```sh
+version: '3.8'
+
+services:
+  notification-parser:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"  # Map localhost:8080 to container's port 80
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    restart: unless-stopped  # Automatically restart unless manually stopped
 ```
 
 ## Contributing
