@@ -34,3 +34,26 @@ jobs:
 
       - name: Run tests
         run: dotnet test --no-restore --verbosity normal
+
+      - name: Deploy to EC2
+        env:
+          EC2_IP: ${{ secrets.EC2_IP }}
+          EC2_USERNAME: ${{ secrets.EC2_USERNAME }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        run: |
+          echo "$SSH_PRIVATE_KEY" > key.pem
+          chmod 600 key.pem
+
+          # Copy the built files to EC2 (adjust path as necessary)
+          scp -i key.pem -r bin/Release/net7.0/* $EC2_USERNAME@$EC2_IP:/home/$EC2_USERNAME/app/
+
+          # SSH into EC2 and run commands (e.g., navigate to the directory, restart service, etc.)
+          ssh -i key.pem $EC2_USERNAME@$EC2_IP << 'EOF'
+            cd /home/$EC2_USERNAME/app
+            # Add any commands needed to run the application, e.g.:
+            # dotnet NotificationParser.dll
+            echo "Deployment complete."
+          EOF
+
+      - name: Clean up private key
+        run: rm key.pem
