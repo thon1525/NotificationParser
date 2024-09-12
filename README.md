@@ -88,18 +88,19 @@ We aim to deliver a clear, reliable tool that makes it easier to process notific
 
 This section lists major frameworks and libraries used in the Learnwithkru project:
 
-<a href="https://learn.microsoft.com/en-us/dotnet/csharp/">
+<a href="https://learn.microsoft.com/en-us/dotnet/csharp/" style="text-decoration: none;">
   <img src="https://user-images.githubusercontent.com/25181517/121405384-444d7300-c95d-11eb-959f-913020d3bf90.png" alt="C#" title="C#" width="50" height="50" />
 </a>
-  <a href="https://dotnet.microsoft.com/">
+<a href="https://dotnet.microsoft.com/" style="text-decoration: none;">
   <img src="https://user-images.githubusercontent.com/25181517/121405754-b4f48f80-c95d-11eb-8893-fc325bde617f.png" alt=".NET Core" title=".NET Core" width="50" height="50" />
 </a>
-  <a href="https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop">
-  <img src="https://static.vecteezy.com/system/resources/previews/026/476/799/original/oop-icon-vector.jpg" alt="oop" title="opp" width="50" height="50" />
+<a href="https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop" style="text-decoration: none;">
+  <img src="https://static.vecteezy.com/system/resources/previews/026/476/799/original/oop-icon-vector.jpg" alt="OOP" title="OOP" width="50" height="50" />
 </a>
-  <a href="https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regex?view=net-8.0">
-  <img src="https://static.javatpoint.com/tutorial/regex/images/regex-tutorial.png" alt="oop" title="opp" width="50" height="50" />
+<a href="https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regex?view=net-8.0" style="text-decoration: none;">
+  <img src="https://static.javatpoint.com/tutorial/regex/images/regex-tutorial.png" alt="Regex" title="Regex" width="50" height="50" />
 </a>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LINKS -->
 
