@@ -278,9 +278,15 @@ Assigned Channels: Backend, Quality Assurance
 
 ```
 
-## Custom Usage
+## Contributing
 
-You can modify or extend the notification tags and channels by updating the \_tagChannelMap dictionary in the NotificationService class. Add new tags as needed by the application.
+We encourage and welcome contributions! If you'd like to improve the application or add new features, follow these steps:
+
+1. **Fork the repository.**
+2. **Create a new branch**
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
 
 ## Contact
 
