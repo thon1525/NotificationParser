@@ -1,4 +1,3 @@
-// models/Notification.cs
 namespace NotificationParser.Models
 {
     public class Notification

@@ -1,4 +1,4 @@
-name: CI for C# Console App
+name: CI for C# NotificationParser
 
 on:
   push:

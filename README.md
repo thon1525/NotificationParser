@@ -94,6 +94,7 @@ This section lists major frameworks and libraries used in the Learnwithkru proje
   <a href="https://dotnet.microsoft.com/">
   <img src="https://user-images.githubusercontent.com/25181517/121405754-b4f48f80-c95d-11eb-8893-fc325bde617f.png" alt=".NET Core" title=".NET Core" width="50" height="50" />
 </a>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LINKS -->
 
@@ -212,6 +213,74 @@ docker container prune
 ```sh
 docker-compose down -v
 ```
+
+### Usage
+
+The application processes sample notification titles and outputs the corresponding notification channels.
+
+## Code Structure
+
+Code Structure
+
+##### Models
+
+Notification: Represents a notification with a Title property containing the notification text, which includes the tags.
+
+##### Services
+
+NotificationService: The core service responsible for parsing the notification titles and mapping tags to channels.
+
+##### Program.cs
+
+The entry point of the application. It initializes sample notifications and processes them using the NotificationService.
+
+## Key Classes
+
+- Notification: Represents a notification with the title as a string.
+- ParseNotificationChannels: Uses regular expressions to extract tags (like [Urgent], [FE]) from the notification title and maps them to corresponding channels such as "Urgent" and "Frontend."
+
+## Customization
+
+To customize or extend the application, you can update the \_tagChannelMap dictionary in the NotificationService class. This dictionary maps notification tags (e.g., [FE], [QA]) to human-readable channel names (e.g., "Frontend", "Quality Assurance").
+
+```sh
+private static readonly Dictionary<string, string> _tagChannelMap = new()
+{
+    { "[FE]", "Frontend" },
+    { "[BE]", "Backend" },
+    { "[QA]", "Quality Assurance" },
+    { "[Urgent]", "Urgent" },
+    // Add or modify tags as needed
+};
+
+```
+
+## Sample Input and Output
+
+Input Titles:
+
+- [Urgent][FE] Critical Frontend bug
+- [BE][QA] Backend service failed, requires QA testing
+- General info [BE][QA]
+  Output:
+
+```sh
+Parsed Notification Channels:
+
+Title: [Urgent][FE] Critical Frontend bug
+Assigned Channels: Urgent, Frontend
+
+Title: [BE][QA] Backend service failed, requires QA testing
+Assigned Channels: Backend, Quality Assurance
+
+Title: General info [BE][QA]
+Assigned Channels: Backend, Quality Assurance
+
+```
+
+## Custom Usage
+
+You can modify or extend the notification tags and channels by updating the \_tagChannelMap dictionary in the NotificationService class. Add new tags as needed by the application.
 
 ## Contact
 
