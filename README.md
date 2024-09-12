@@ -94,7 +94,7 @@ This section lists major frameworks and libraries used in the Learnwithkru proje
   <a href="https://dotnet.microsoft.com/">
   <img src="https://user-images.githubusercontent.com/25181517/121405754-b4f48f80-c95d-11eb-8893-fc325bde617f.png" alt=".NET Core" title=".NET Core" width="50" height="50" />
 </a>
-**Regex**
+- **Regex**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LINKS -->
 
