@@ -287,6 +287,21 @@ We encourage and welcome contributions! If you'd like to improve the application
    ```bash
    git checkout -b feature/YourFeatureName
    ```
+3. **Make your changes and commit them**
+
+```bash
+git commit -m 'Add YourFeatureName'
+```
+
+3. **Push your branch**
+
+```bash
+git push origin feature/YourFeatureName
+```
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
 
