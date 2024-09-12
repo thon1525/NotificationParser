@@ -97,6 +97,9 @@ This section lists major frameworks and libraries used in the Learnwithkru proje
   <a href="https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop">
   <img src="https://static.vecteezy.com/system/resources/previews/026/476/799/original/oop-icon-vector.jpg" alt="oop" title="opp" width="50" height="50" />
 </a>
+  <a href="https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regex?view=net-8.0">
+  <img src="https://static.javatpoint.com/tutorial/regex/images/regex-tutorial.png" alt="oop" title="opp" width="50" height="50" />
+</a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LINKS -->
 
