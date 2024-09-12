@@ -52,7 +52,16 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#usage">Usage</a>
+    <ul>
+        <li><a href="#code-structure"> Code Structure</a></li>
+        <li><a href="#key-classes">Key Classes</a></li>
+        <li><a href="#Customization">Customization</a></li>
+         <li><a href="#sample-input-and-output">Sample Input and Output</a></li>
+      </ul>
+    </li>
+     <li><a href="#contributing">Contributing</a></li>
+       <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
